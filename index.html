@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+
+    <!-- Ordered List -->
+    <h2>Ordered List with Roman Numerals</h2>
+    <ol type="I">
+        <li>Kelvin</li>
+        <li>Moses</li>
+        <li>Amos</li>
+        <li>William</li>
+        <li>Raila</li>
+    </ol>
+    <!-- Image from pexels.com -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/312824/pexels-photo-312824.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" 
+         alt="Butterfly" width="600" height="400">
+
+    <h2>Contact Information</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Stephen Wanjala</td>
+            <td>72245</td>
+            <td>0712345768</td>
+            <td>stephenwanjala10@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Kelvin Macharia</td>
+            <td>36258</td>
+            <td>0791205914</td>
+            <td>kelvinmacharia115@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Linus Maingi</td>
+            <td>24519</td>
+            <td>0721767839</td>
+            <td>linusmaingi001@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Victor Wanjohi</td>
+            <td>88389</td>
+            <td>0768892893</td>
+            <td>victorwanjohi11@gmail.com</td>
+        </tr>
+        <tr>
+            <td>William Kasongo</td>
+            <td>882039</td>
+            <td>0746188271</td>
+            <td>williamkasongo@gmail.com</td>
+        </tr>
+    </table>
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter a strong password" required>
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">--Select your country--</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Sudan">Sudan</option>
+            <option value="Somalia">Somalia</option>
+            <option value="Rwanda">Rwanda</option>
+            <option value="Burundi">Burundi</option>
+            <option value="Eritrea">Eritrea</option>
+            <option value="Egypt">Egypt</option>
+            <option value="Djibouti">Djibouti</option>
+        </select>
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <br><br>
+
+        <label>Interests:</label>
+        <input type="checkbox" id="programming" name="interests" value="programming">
+        <label for="programming">Programming</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label>
+        <br><br>
+
+        <button type="submit">Register</button>
+        <button type="reset">Clear Form</button> 
+    </form>
+</body>
+</html>
